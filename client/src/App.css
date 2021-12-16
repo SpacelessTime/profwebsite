@@ -1,10 +1,75 @@
-.App {
-  text-align: center;
+
+.App{
+ background-color: rgb(218, 188, 148);
 }
 
 
+.navbar{ text-align: center;
+  background-color: gray;
+  padding: 20px;
+}
+.Title{
+  font-size: 2rem;
+}
+
+.contentGrid{
+  text-align:center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*TOP*/
+
+.leftTop{
+background-color: firebrick;
+padding:15px;
+}
+
+.midTop{
+background-color: forestgreen;
+padding:15px;
+
+}
+
+.rightTop{
+background-color: fuchsia;
+padding:15px;
+
+}
+/*MIDDLE*/
+.leftMid{
+background-color: indianred;
+padding:15px;
+
+}
+
+.middle{
+background-color: lightgreen;
+padding:15px;
+
+}
 
 
+.rightMid{
+background-color: lightpink;
+padding:15px;
+}
+/*Bottom*/
+.leftBottom{
+background-color: maroon;
+padding:15px;
+}
+
+.midBottom{
+background-color: lime;
+padding:15px;
+}
+
+.rightBottom{
+background-color:mediumorchid;
+padding:15px;
+}
 
 
 
