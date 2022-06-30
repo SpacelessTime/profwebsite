@@ -1,13 +1,23 @@
 
 .App{
- background-color: rgb(218, 188, 148);
+ background-color: rgb(122, 106, 83);
 }
 
 
 .navbar{ text-align: center;
-  background-color: gray;
+  display:block;
+  background-color: rgb(27, 27, 27);
   padding: 20px;
+  color: rgb(179, 116, 0);
 }
+.npod{
+  color:rgb(179, 116, 0);
+}
+
+ a:hover{
+  text-decoration: underline;
+}
+
 .Title{
   font-size: 2rem;
 }
@@ -30,21 +40,21 @@
 
 
 .leftTop{
-background-color: firebrick;
+
 padding:15px;
 margin-top: 20%;
 margin-bottom: 15%;
 }
 
 .midTop{
-background-color: forestgreen;
+
 padding:15px;
 margin-top: 20%;
 margin-bottom: 15%;
 }
 
 .rightTop{
-background-color: fuchsia;
+
 padding:15px;
 margin-top: 20%;
 margin-bottom: 15%;
@@ -56,20 +66,20 @@ margin-bottom: 15%;
 
 
 .leftMid{
-background-color: indianred;
+
 padding:15px;
 margin-bottom: 25%;
 }
 
 .middle{
-background-color: lightgreen;
+
 padding:15px;
 margin-bottom: 25%;
 }
 
 
 .rightMid{
-background-color: lightpink;
+
 padding:15px;
 margin-bottom: 25%;
 
@@ -81,19 +91,19 @@ margin-bottom: 25%;
 
 
 .leftBottom{
-background-color: maroon;
+
 padding:15px;
 margin-bottom: 50%;
 }
 
 .midBottom{
-background-color: lime;
+
 padding:15px;
 margin-bottom: 50%;
 }
 
 .rightBottom{
-background-color:mediumorchid;
+
 padding:15px;
 margin-bottom: 50%;
 }
