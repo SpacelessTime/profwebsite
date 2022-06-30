@@ -2,7 +2,8 @@ import React from 'react';
 import AboutMe from './components/aboutMe.js';
 import './App.css';
 
-//import {Router,Route, Link, Switch } from 'react-router-dom';
+import {Link, Route} from 'react-router-dom';
+
 const openNewTab = (url) => {
   const newTab = window.open(url, '_blank', 'noopener,noreferrer')
   if (newTab) newTab.opener = null
@@ -13,11 +14,12 @@ function App() {
     <div className='App'>
       <nav className='navbar'>
        <h1 className='Title'> Julian Petrisky</h1>
-       <h4 className='descript'> <a classname='npod'
-       onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </a> 
-    </h4>   
-       <h4><AboutMe/></h4>
+       <h4 className='descript'> <div classname='npod'
+       onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </div> 
+    </h4>   <Link to="/about">About</Link>
+     <Route path='/AboutMe' component={AboutMe}>About me</Route>
   </nav>
+   
     <div className='contentGrid'>
       <div className='leftTop'> left top content 
 

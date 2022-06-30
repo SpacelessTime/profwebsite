@@ -1,13 +1,12 @@
 import React from 'react';
 import '../styles/aboutme.css';
 
-const AboutMe = () =>{
+ export default function AboutMe() {
 
 
    return (
-    <div>about me</div>
+    <div>this page is about me</div>
 )
 
 }
 
-export default AboutMe
