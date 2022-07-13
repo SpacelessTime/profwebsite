@@ -14,7 +14,7 @@
   color:rgb(179, 116, 0);
 }
 
- a:hover{
+ .npod:hover{
   text-decoration: underline;
 }
 
@@ -34,6 +34,12 @@
    height:auto;
  }
 
+.descript{
+  text-align: center;
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:-2%;
+}
 
 /*TOP*/
 

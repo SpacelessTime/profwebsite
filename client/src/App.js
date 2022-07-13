@@ -1,94 +1,84 @@
-import React from 'react';
-import AboutMe from './components/aboutMe.js';
+import React,{Component} from 'react';
+import AboutMe from './components/aboutMe';
 import './App.css';
+import {BrowserRouter as Router,Route, Link, Routes } from 'react-router-dom';
 
-import {Link, Route} from 'react-router-dom';
 
 const openNewTab = (url) => {
   const newTab = window.open(url, '_blank', 'noopener,noreferrer')
   if (newTab) newTab.opener = null
 }
 
-function App() {
+class App extends Component {
+ render() {
   return (
     <div className='App'>
       <nav className='navbar'>
-       <h1 className='Title'> Julian Petrisky</h1>
-       <h4 className='descript'> <div classname='npod'
-       onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </div> 
-    </h4>   <Link to="/about">About</Link>
-     <Route path='/AboutMe' component={AboutMe}>About me</Route>
+       <h1 className='Title'> Julian Petrisky Photography</h1>
+        <div className='npod'
+       onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </div>
   </nav>
-   
+  <h4 className='descript'>All photos taken by me. This was a small project to test out concepts and designs for my future websites, 
+                            I might add more photos/updates in the future but this project has served its purpose for now</h4>
     <div className='contentGrid'>
-      <div className='leftTop'> left top content 
+      <div className='leftTop'> 
 
           <img className='Image'src={'./assets/MTOL0228.JPG'} alt='sunset'/>
 
        </div>   
-      <div className='midTop'>   middle top content  
+      <div className='midTop'>     
 
           <img className='Image'src={'./assets/JLIZ1197.JPG'} alt='sunset'/>
 
       </div> 
-      <div className='rightTop'>  right top content
+      <div className='rightTop'> 
 
           <img className='Image'src={'./assets/QNOC8648.JPG'} alt='sunset'/>
 
        </div>   
 
 
-      <div className='leftMid'>  left middle content 
+      <div className='leftMid'>  
 
         <img className='Image' src={'./assets/RFSL3209.JPG'} alt=''/>
 
       </div>
 
-      <div className='middle'>dead middle content
+      <div className='middle'>
 
         <img className='Image' src={'./assets/SDCQ6636.JPG'} alt=''/>
 
       </div>
 
-      <div className='rightMid'> right middle content
+      <div className='rightMid'> 
 
         <img className='Image' src={'./assets/VSIV2438.JPG'} alt=''/>
       </div>
 
-      <div className='leftBottom'> left bottom content 
+      <div className='leftBottom'>  
 
         <img className='Image' src={'./assets/NJQV8408.JPG'} alt=''/>
 
       </div>
 
-      <div className='midBottom'> middle bottom content
+      <div className='midBottom'> 
 
         <img className='Image' src={'./assets/WHPM3278.JPG'} alt=''/>
 
 
       </div>
-      <div className='rightBottom'> right bottom content
+      <div className='rightBottom'> 
 
         <img className='Image' src={'./assets/XDDM5070.JPG'} alt=''/>
 
       </div>
-</div>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-<footer className='footer'></footer>
     </div>
-);
+</div>
+    
+
+
+    
+); }
 }
 
 export default App;
