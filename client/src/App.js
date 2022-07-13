@@ -18,8 +18,8 @@ class App extends Component {
         <div className='npod'
        onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </div>
   </nav>
-  <h4 className='descript'>All photos taken by me. This was a small project to test out concepts and designs for my future websites, 
-                            I might add more photos/updates in the future but this project has served its purpose for now</h4>
+  <h2 className='descript'>All photos taken by me. This was a small project to test out concepts and designs for my future websites, 
+                            I might add more photos/updates in the future but this project has served its purpose for now</h2>
     <div className='contentGrid'>
       <div className='leftTop'> 
 
