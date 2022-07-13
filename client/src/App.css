@@ -1,0 +1,148 @@
+
+.App{
+ background-color: rgb(122, 106, 83);
+}
+
+
+.navbar{ text-align: center;
+  display:block;
+  background-color: rgb(27, 27, 27);
+  padding: 20px;
+  color: rgb(179, 116, 0);
+}
+.npod{
+  color:rgb(179, 116, 0);
+}
+
+ .npod:hover{
+  text-decoration: underline;
+}
+
+.Title{
+  font-size: 2rem;
+}
+
+.contentGrid{
+  text-align:center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+} 
+
+.Image{
+   max-width: 100%;
+   height:auto;
+ }
+
+.descript{
+  text-align: center;
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:-2%;
+}
+
+/*TOP*/
+
+
+
+.leftTop{
+
+padding:15px;
+margin-top: 20%;
+margin-bottom: 15%;
+}
+
+.midTop{
+
+padding:15px;
+margin-top: 20%;
+margin-bottom: 15%;
+}
+
+.rightTop{
+
+padding:15px;
+margin-top: 20%;
+margin-bottom: 15%;
+}
+
+
+
+/*MIDDLE*/
+
+
+.leftMid{
+
+padding:15px;
+margin-bottom: 25%;
+}
+
+.middle{
+
+padding:15px;
+margin-bottom: 25%;
+}
+
+
+.rightMid{
+
+padding:15px;
+margin-bottom: 25%;
+
+}
+
+
+/*Bottom*/
+
+
+
+.leftBottom{
+
+padding:15px;
+margin-bottom: 50%;
+}
+
+.midBottom{
+
+padding:15px;
+margin-bottom: 50%;
+}
+
+.rightBottom{
+
+padding:15px;
+margin-bottom: 50%;
+}
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
