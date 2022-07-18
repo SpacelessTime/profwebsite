@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
-import AboutMe from './components/aboutMe';
 import './App.css';
-import {BrowserRouter as Router,Route, Link, Routes } from 'react-router-dom';
 
 
 const openNewTab = (url) => {
@@ -19,7 +17,7 @@ class App extends Component {
        onClick={()=>openNewTab('https://npod-spacelesstime.vercel.app/')}> Astronomy Photo of the day </div>
   </nav>
   <h2 className='descript'>All photos taken by me. This was a small project to test out concepts and designs for my future websites, 
-                            I might add more photos/updates in the future but this project has served its purpose for now</h2>
+                            I might add more photos/updates in the future</h2>
     <div className='contentGrid'>
       <div className='leftTop'> 
 
